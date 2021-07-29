@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Champ;
+  src: url("../fonts/Champions-Bold.ttf");
+}
+
+@font-face {
+  font-family: Bombard;
+  src: url("../fonts/bombard.ttf");
+}
+
+body {
+  font-family: Bombard;
+  color: #000;
+}
+
+button {
+  background-color: #fff;
+  border: 0;
+  outline: none;
+}
+
+.section-full {
+  min-height: 100vh;
+}
+
+.btn-lg {
+  margin-top: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-10 {
+  margin-top: 10px;
+}
+
+.mb-20 {
+  margin-top: 20px;
+}
+
+.mb-30 {
+  margin-top: 30px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
+.box {
+  width: 100%;
+  padding: 20px;
+}
+#labelJodador1,
+#labelJodador2 {
+  font: 42px Bombard;
+}
+
+#pontuacaoP1,
+#pontuacaoP2 {
+  font: 64px Bombard;
+}
+
+.row {
+  padding: 5px;
+}
+
+.linha {
+  background-color: #fff;
+  margin: 10px 10px;
+}
+
+.linha2 {
+  background-color: #fff;
+  margin: 0 10px;
+  border: 1px solid #fff;
+}
+
+.balls {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  margin: 15px 25px;
+}
+
+.clicked {
+  background-color: #000;
+  color: #fff;
+}
+
+.sub {
+  font-size: 38px;
+}
+
+.jogos {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  padding: 20px 20px 50px 2px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.painel {
+  display: inline-block;
+}
+
+.painel button {
+  border: none;
+  margin: 2px;
+}
+
+.values {
+  font-size: 28px;
+}
+
+.imgs {
+  margin: 0 3px;
+}
+
+#labelQ {
+  max-width: 50px;
+  width: 50px;
+  background-color: #ff0;
+}
+
+.point1 {
+  max-width: 50px;
+  width: 50px;
+  background-color: #0f0;
+}
+
+.point2 {
+  max-width: 50px;
+  width: 50px;
+  background-color: #0f0;
+}
