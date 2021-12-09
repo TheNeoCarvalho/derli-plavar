@@ -77,6 +77,14 @@ button {
   font-weight: bold;
 }
 
+#pontuacaoP1 {
+  margin-left: 80px;
+}
+
+#pontuacaoP2 {
+  margin-right: 80px;
+}
+
 #pontuacaoP1,
 #pontuacaoP2 {
   font: 64px bahnschrift;
