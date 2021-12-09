@@ -8,8 +8,20 @@
   src: url("../fonts/bombard.ttf");
 }
 
+@font-face {
+  font-family: bahnschrift;
+  src: url("../fonts/BAHNSCHRIFT.ttf");
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/MONTSERRAT-BOLD.ttf");
+}
+
+
 body {
-  font-family: Bombard;
+  font-family: bahnschrift;
+  font-weight: bold;
   color: #000;
 }
 
@@ -61,12 +73,14 @@ button {
 }
 #labelJodador1,
 #labelJodador2 {
-  font: 42px Bombard;
+  font: 42px bahnschrift;
+  font-weight: bold;
 }
 
 #pontuacaoP1,
 #pontuacaoP2 {
-  font: 64px Bombard;
+  font: 64px bahnschrift;
+  font-weight: bold;
 }
 
 .row {
